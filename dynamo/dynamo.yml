@@ -25,6 +25,6 @@ Outputs:
       Export:
         Name: DynamoLab
   DynamoNameArn:
-      Value: !GetAtt DynamoLab.Arn
+      Value: !GetAtt DynamoPlatzi.Arn
       Export:
         Name: DynamoLabArn
