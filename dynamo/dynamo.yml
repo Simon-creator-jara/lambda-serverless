@@ -21,10 +21,10 @@ Resources:
         SSEEnabled: true
 Outputs:
   DynamoName:
-      Value: !Ref DynamoPlatzi
+      Value: !Ref DynamoLab
       Export:
         Name: DynamoLab
   DynamoNameArn:
-      Value: !GetAtt DynamoPlatzi.Arn
+      Value: !GetAtt DynamoLab.Arn
       Export:
         Name: DynamoLabArn
